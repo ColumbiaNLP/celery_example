@@ -26,6 +26,7 @@ curl --location 'http://localhost:55556/hello-world' \
 }'
 ```
 The API will responds with the `result_id`.
+
 5. GET request to `/hello-world/{result_id}` endpoint with the `result_id` from previous step.
 ```
 curl --location 'http://localhost:55556/hello-world/cfd25df5-aded-4d7c-b58d-300649a5cb49'
